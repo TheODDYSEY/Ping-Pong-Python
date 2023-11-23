@@ -79,7 +79,7 @@ class Table:
         self.playerB.update(self.screen)
         self._ball_hit()
         if self.playerA.score == self.score_limit:
-            self.winner = "Opponent"
+            self.winner = "AI Opponent"
         elif self.playerB.score == self.score_limit:
             self.winner = "You"
         self._game_end()
